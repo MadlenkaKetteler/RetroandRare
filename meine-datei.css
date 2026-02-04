@@ -128,7 +128,7 @@ h4{
 
 .bilder-galerie{
 	display: grid;
-	grid-template-columns: 5
+	grid-template-columns: repeat(auto-fit, minimax(150px));
 	gap: 1.5rem;
 	align-content: center;
 	margin-right: auto;
