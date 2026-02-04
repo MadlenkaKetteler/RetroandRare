@@ -1,0 +1,154 @@
+	
+
+body {
+	font-family: helvetica;
+	font-size: 12pt;
+	line-height: 1.5;
+	background-color: #6B0000;
+}
+
+h2{
+	font-family: fantasy;
+	font-size: 40px;
+	padding-top: 0px;
+	color: #FFB6C1;
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+	font-family: fantasy;
+	padding-top: 10%;
+	color: #FFB6C1;
+}
+
+h4{
+	color: #FFB6C1;
+	margin-left: 10%;
+}
+
+.name {
+	margin: 0;
+	margin-top: 5%;
+	text-align: center;
+}
+
+.produkte{
+	display: grid; 
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	background-color: #FFB6C1;
+	text-align: center;
+	a{
+		color: #6B0000;
+		font-size: 18px;
+		font-weight: bold;
+	}
+
+}
+
+.bilder{
+	display: flex;
+	gap: 2rem;
+	img{
+		border: 2px solid #FFB6C1;
+	}
+	padding-left: 10%;
+		
+}
+
+.text{
+
+	background-color: #FFB6C1;
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	padding: 2.5%;
+}
+	
+
+.einfuehrung{
+	text-align: center;
+	background-color: #FFB6C1;
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-bottom: 10%;
+}
+
+.h2{
+	padding-top: 10%;
+}
+
+
+
+.nav {
+    background-color: #FFB6C1;
+    padding: 12px 0;
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.nav a {
+    color: #6B0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.back a {
+	color: #FFE4E1;
+
+}
+
+
+.zitat{
+	padding-right: 30%;
+	padding-left: 30%;
+	padding-top: 25%;
+	padding-bottom: 20%;
+	color: #FFB6C1;
+	font-family: fantasy;
+	font-size: 12px;
+	text-align: center;
+	line-height: 2.5;
+}
+
+.bilder-galerie{
+	display: flex;
+	gap: 1.5rem;
+	align-content: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.left-img{
+	display: block;
+	margin-right: auto;
+	margin-left: 0;
+	margin-bottom: -8vw;
+	margin-top: 5%;
+	padding-bottom: 0;
+}
+.right-img{
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+	margin-bottom: -5vw;
+	margin-top: -5vw;
+
+}
+
