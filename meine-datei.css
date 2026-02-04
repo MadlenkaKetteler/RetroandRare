@@ -128,7 +128,7 @@ h4{
 
 .bilder-galerie{
 	display: flex;
-	gap: 4rem;
+	gap: 3rem;
 	align-content: center;
 	margin-right: auto;
 	margin-left: auto;
